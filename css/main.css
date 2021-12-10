@@ -1,0 +1,39 @@
+/* DEVELOPER: Paula Martinez, IS117, Fall 2021 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: mediumpurple;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover{
+    color:white;
+}
+
+
+
+@media screen and (min-width: 0px) {
+    #palette-img {
+        float: right;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    #palette-img {
+        float: right;
+        width: 40%;
+    }
+}
